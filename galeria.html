@@ -1,92 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
-    <link rel="stylesheet" href="estilos.css">
-
-
-
+    <title>Galería</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
- <meta charset="UTF-8">
-    <!-- hace que la pagina sea responsiva en moviles -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios Flex</title>
-    <!-- enlaza el archivo CSS externo para estilos -->
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-
-    <!-- logo de la pagina (redirige tambien a Inicio) -->
-<div>
-    <a href="index.html">
-        <img class="cabeza" src="cabecera.png" alt="cabeza">
-    </a>
-</div>
-
-<!-- encabezado del menu (puede servir para estilos adicionales) -->
+    <!-- Logo -->
+   
+        <a href="index.html">
+            <img class="cabeza" src="cabecera.png" alt="Logo de la página">
+        </a>
 
 
-<!-- menu de navegacion -->
-<nav> 
+    <!-- Menú de navegación -->
+    <nav> 
+        <input type="checkbox" id="menu-checkbox">
 
-<!-- checkbox oculto para controlar el menu hamburguesa en moviles -->
-    <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
 
-    <!-- label que se usa como boton de menu hamburguesa -->
-    <label for="menu-checkbox" class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
+     <section>   
+            <a href="index.html" class="negro">Inicio</a>
+            <a href="nosotros.html" class="negro">Nosotros</a>
+            <a href="servicios.html" class="negro">Servicios</a>
+            <a href="galeria.html" class="negro">Galería</a>
+            <a href="contactos.html" class="negro">Contacto</a>
+        </section>
+    </nav>
 
+    <!-- Contenido principal -->
+    <main>
+      <div class="textoprincipal">
+  <h1>Galería</h1>
+        <div class="galeria">
 
-
-<!-- seccion que contiene los enlaces del menu -->
-    <section>   
-        <a href="index.html" class="negro">inicio</a>
-    <a href="nosotros.html" class="negro">Nosotros</a>
-    <a href="servicios.html"class="negro">Servicios</a>
-    <a href="contactos.html"class="negro">contactos</a>
-   </section>
-
-
-</nav>
-
-<h1>Galeria</h1>
-
-<div class="galeria">
-    <div class="imagen">
-    <img src="imagen1.png" alt="imagen1">
-   </div>
-   <div class="imagen">
-   <img src="imagen2.png" alt="imagen2">
-   </div>
-   <div class="imagen">
-   <img src="imagen3.png" alt="imagen3">
-   </div> 
-   <div class="imagen">
-   <img src="imagen4.png" alt="imagen4">
-   </div>
-   <div class="imagen">
-    <img src="imagen5.png" alt="imagen5">
+            
+            <div class="imagen">
+                <img src="imagen1.png" alt="Imagen 1">
+            </div>
+            <div class="imagen">
+                <img src="imagen2.png" alt="Imagen 2">
+            </div>
+            <div class="imagen">
+                <img src="imagen3.png" alt="Imagen 3">
+            </div>
+            <div class="imagen">
+                <img src="imagen4.png" alt="Imagen 4">
+            </div>
+            <div class="imagen">
+                <img src="imagen5.png" alt="Imagen 5">
+            </div>
+            <div class="imagen">
+                <img src="imagen1.png" alt="Imagen 6">
+            </div>
+            <div class="imagen">
+                <img src="imagen2.png" alt="Imagen 7">
+            </div>
+        </div>
+        </div>
     </div>
-     <div class="imagen">
-   <img src="imagen4.png" alt="imagen4">
-   </div>
-   <div class="imagen">
-    <img src="imagen5.png" alt="imagen5">
-    </div>
+    </main>
 
-</div>
+    <!-- Pie de página -->
+    <footer>
+        Alejo Samitier 2025
+    </footer>
 
 
-    
 </body>
-
-<footer> Alejo Samitier 2025</footer>
 
 </html>
